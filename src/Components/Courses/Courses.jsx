@@ -250,7 +250,6 @@ const Courses = () => {
               </div>
               <br />
               <hr />
-
               <div className="bottominfo">
                 <div className="personInfo">
                   <div className="person1imgdiv">
