@@ -57,6 +57,7 @@ left: 55%;
   border: 1px solid #287279;
   border-radius: 20px;
   color: white;
+  cursor: pointer;
 }
 .btn2{
   background-color: #f0f1ee;
@@ -64,6 +65,7 @@ left: 55%;
   border: 1px solid #287279;
   border-radius: 20px;
   color: #287279;
+  cursor: pointer;
 }
 
 .bannerIMG {

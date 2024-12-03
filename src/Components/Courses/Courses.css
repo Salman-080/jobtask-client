@@ -2,8 +2,6 @@
   display: none;
 }
 
-
-
 .Fsection {
   max-width: 1170px;
   margin-left: auto;
@@ -23,12 +21,7 @@
   background-color: brown;
   top: 50%;
   margin-right: 30px;
-  
-
-  
 }
-
-
 
 /* #app {
     height: 100%;
@@ -89,8 +82,6 @@
   padding: 10px 20px;
 }
 
-
-
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   background: black;
@@ -109,10 +100,9 @@
   box-sizing: border-box;
   border-radius: 20px;
   margin-top: 34px;
-  
 }
 
-.sliderDiv2{
+.sliderDiv2 {
   border: 1px solid rgb(204, 204, 204);
   box-sizing: border-box;
   border-radius: 20px;
@@ -125,7 +115,7 @@
 
 .beginner {
   border: 1px solid #ff970080;
-  background-color: #FFF8E7;
+  background-color: #fff8e7;
   border-radius: 6px;
   padding: 3px 6px;
 }
@@ -202,8 +192,7 @@
   position: relative;
 }
 
-
-.cartSection{
+.cartSection {
   display: flex;
   gap: 6px;
   position: absolute;
@@ -211,16 +200,18 @@
   right: 5%;
 }
 
-.cart{
-padding: 10px;
-border-radius: 50%;
-background-color: white;
+.cart {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
 }
 
-.heart{
+.heart {
   padding: 10px;
-border-radius: 50%;
-background-color: white;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
 }
 
 .dollartext {
@@ -246,7 +237,7 @@ background-color: white;
   margin-top: 32px;
 }
 
-.CheckmarkSection{
+.CheckmarkSection {
   display: flex;
   gap: 5px;
   padding: 3px 6px;
@@ -258,7 +249,7 @@ background-color: white;
   color: grey;
 }
 .CheckmarkSection p {
-color: black;
+  color: black;
 }
 
 .coursesparatext {
@@ -268,73 +259,59 @@ color: black;
 }
 
 @media (max-width: 767px) {
-.largeDevice{
+  .largeDevice {
     display: none;
-}
-.smallDevice{
+  }
+  .smallDevice {
     display: flex;
-}
+  }
 
-.custom-navigation {
+  .custom-navigation {
     right: 50%;
     left: 47%;
-    top: 506%; 
+    top: 506%;
   }
- 
-
 }
 
 @media (max-width: 767px) {
-  .largeDevice{
-      display: none;
+  .largeDevice {
+    display: none;
   }
-  .smallDevice{
-      display: flex;
+  .smallDevice {
+    display: flex;
   }
-  
+
   .custom-navigation {
-      right: 50%;
-      left: 47%;
-      top: 506%; 
-    }
-
-    .pt{
-      padding: 5px 10px;
-    }
-   
-  
+    right: 50%;
+    left: 47%;
+    top: 506%;
   }
-  @media (max-width: 381px) {
-    
-    .custom-navigation {
-        
-        top: 460%; 
-      }
 
-    
-     
-    
-    }
-
-
-    
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .custom-navigation {
-      right: 50%;
-      left: 47%;
-      top: 612%; 
-    }
-
-    .pt{
-      padding: 5px 10px;
-    }
+  .pt {
+    padding: 5px 10px;
   }
-  @media (min-width: 382px) and (max-width: 401px) {
-    .custom-navigation {
-      right: 50%;
-      left: 47%;
-      top: 440%; 
-    }
-
+}
+@media (max-width: 381px) {
+  .custom-navigation {
+    top: 460%;
   }
-  
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-navigation {
+    right: 50%;
+    left: 47%;
+    top: 612%;
+  }
+
+  .pt {
+    padding: 5px 10px;
+  }
+}
+@media (min-width: 382px) and (max-width: 401px) {
+  .custom-navigation {
+    right: 50%;
+    left: 47%;
+    top: 440%;
+  }
+}

@@ -36,6 +36,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .button {
@@ -44,12 +45,14 @@
   border-radius: 32px 32px;
   padding: 12px 24px;
   color: white;
+  cursor: pointer;
 }
 
 .cartIcon {
   color: #287279;
   width: 32px;
   height: 32px;
+  cursor: pointer;
 }
 
 .navbarEnd {
