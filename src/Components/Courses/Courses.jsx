@@ -5,6 +5,9 @@ import { FaStar } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa6";
 import { IoIosBook } from "react-icons/io";
 import { IoIosCheckmarkCircle } from "react-icons/io";
+import { FiShoppingCart } from "react-icons/fi";
+import { FaRegHeart } from "react-icons/fa";
+
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -106,6 +109,10 @@ const Courses = () => {
           <SwiperSlide className="sliderDiv">
             <div className="imgDiv">
               <img className="img" src="img2.jpg" alt="" />
+              <div className="cartSection">
+              <FiShoppingCart className="cart"></FiShoppingCart>
+              <FaRegHeart className="heart"></FaRegHeart>
+              </div>
             </div>
 
             <div className="secondDiv">

@@ -23,7 +23,12 @@
   background-color: brown;
   top: 50%;
   margin-right: 30px;
+  
+
+  
 }
+
+
 
 /* #app {
     height: 100%;
@@ -67,7 +72,10 @@
   } */
 
 .swiper-button-next {
-  margin-right: -40px;
+  margin-right: -80px;
+}
+.swiper-button-prev {
+  margin-left: -70px;
 }
 
 .swiper-button-prev,
@@ -76,24 +84,17 @@
   border: 1px solid black;
   border-radius: 100%;
   cursor: pointer;
-  color: red !important;
+  color: black !important;
   transform: scale(0.5);
   padding: 10px 20px;
 }
 
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  background: black;
-}
+
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  color: orange;
-}
-
-.imgDiv {
-  width: 100%;
-  height: 200px;
+  background: black;
+  color: white !important;
 }
 
 .img {
@@ -184,6 +185,33 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 18px;
+}
+
+.imgDiv {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+
+.cartSection{
+  display: flex;
+  gap: 6px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.cart{
+padding: 10px;
+border-radius: 50%;
+background-color: white;
+}
+
+.heart{
+  padding: 10px;
+border-radius: 50%;
+background-color: white;
 }
 
 .dollartext {
@@ -285,11 +313,19 @@ color: black;
     .custom-navigation {
       right: 50%;
       left: 47%;
-      top: 597%; 
+      top: 612%; 
     }
 
     .pt{
       padding: 5px 10px;
     }
+  }
+  @media (min-width: 382px) and (max-width: 401px) {
+    .custom-navigation {
+      right: 50%;
+      left: 47%;
+      top: 440%; 
+    }
+
   }
   
