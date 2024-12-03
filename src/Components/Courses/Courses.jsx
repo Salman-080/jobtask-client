@@ -106,7 +106,7 @@ const Courses = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="sliderDiv">
+          <SwiperSlide className="sliderDiv2">
             <div className="imgDiv">
               <img className="img" src="img2.jpg" alt="" />
               <div className="cartSection">
