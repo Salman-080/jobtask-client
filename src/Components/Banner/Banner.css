@@ -167,5 +167,22 @@ left: 55%;
         margin-top: 15px;
         margin-bottom: 12px;
       }
+
+      .banner_Parent{
+        margin-top: 12px;
+      }
   }
   
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .banner {
+      padding: 5px 10px;
+    }
+}
+
+@media (min-width: 1500px){
+  .framesection{
+  
+  left: 53.6%;
+  }
+}

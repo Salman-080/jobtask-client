@@ -136,3 +136,10 @@ margin-top: 8px;
     
     }
     
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .ServiceAllsection{
+            padding: 5px 10px;
+           
+        }
+      }

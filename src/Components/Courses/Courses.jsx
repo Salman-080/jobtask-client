@@ -4,6 +4,7 @@ import { FaStarHalfAlt } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa6";
 import { IoIosBook } from "react-icons/io";
+import { IoIosCheckmarkCircle } from "react-icons/io";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -104,18 +105,18 @@ const Courses = () => {
           </SwiperSlide>
           <SwiperSlide className="sliderDiv">
             <div className="imgDiv">
-              <img className="img" src="img1.jpg" alt="" />
+              <img className="img" src="img2.jpg" alt="" />
             </div>
 
             <div className="secondDiv">
               <div className="textSection">
                 <div className="bn">
-                  <p className="beginner">Beginner</p>
-                  <p className="nutrition">Nutriant and Diet</p>
+                  <p className="beginner">Intermediate</p>
+                  <p className="nutrition">Health and Wellness</p>
                 </div>
                 <div>
                   <p className="foundation">
-                    Foundation of Sleep: Sleep Science and Sleep Disorders
+                  Parenting in the Digital Age: Navigating Screen Time
                   </p>
                 </div>
                 <div className="stardiv">
@@ -126,7 +127,7 @@ const Courses = () => {
                     <FaStar></FaStar>
                     <FaStarHalfAlt></FaStarHalfAlt>
                   </p>
-                  <p>4.9 (566)</p>
+                  <p>4.9 (456)</p>
                 </div>
               </div>
 
@@ -143,21 +144,21 @@ const Courses = () => {
               <div className="bottominfo">
                 <div className="personInfo">
                   <div className="person1imgdiv">
-                    <img className="person1img" src="/person1.png" alt="" />
+                    <img className="person1img" src="/person2.jpg" alt="" />
                   </div>
                   <div>
-                    <p>Kylian Murphle</p>
+                    <p>Sarah Hopkins</p>
                   </div>
                 </div>
                 <div>
-                  <p className="dollartext">$40</p>
+                  <p className="dollartext">$50</p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="sliderDiv">
             <div className="imgDiv">
-              <img className="img" src="img1.jpg" alt="" />
+              <img className="img" src="img3.jpg" alt="" />
             </div>
 
             <div className="secondDiv">
@@ -168,7 +169,7 @@ const Courses = () => {
                 </div>
                 <div>
                   <p className="foundation">
-                    Foundation of Sleep: Sleep Science and Sleep Disorders
+                  Holistic Health: Integrating Mind, Body, and Spirit
                   </p>
                 </div>
                 <div className="stardiv">
@@ -179,7 +180,7 @@ const Courses = () => {
                     <FaStar></FaStar>
                     <FaStarHalfAlt></FaStarHalfAlt>
                   </p>
-                  <p>4.9 (566)</p>
+                  <p>4.9 (389)</p>
                 </div>
               </div>
 
@@ -196,21 +197,25 @@ const Courses = () => {
               <div className="bottominfo">
                 <div className="personInfo">
                   <div className="person1imgdiv">
-                    <img className="person1img" src="/person1.png" alt="" />
+                    <img className="person1img" src="/person3.jpg" alt="" />
                   </div>
                   <div>
-                    <p>Kylian Murphle</p>
+                    <p>Luna Karim</p>
                   </div>
                 </div>
                 <div>
-                  <p className="dollartext">$40</p>
+                  <div className="CheckmarkSection">
+                  <IoIosCheckmarkCircle></IoIosCheckmarkCircle>
+                    <p className="">Enrolled</p>
+                  </div>
+                  
                 </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="sliderDiv">
             <div className="imgDiv">
-              <img className="img" src="img1.jpg" alt="" />
+              <img className="img" src="img4.jpg" alt="" />
             </div>
 
             <div className="secondDiv">
@@ -221,7 +226,7 @@ const Courses = () => {
                 </div>
                 <div>
                   <p className="foundation">
-                    Foundation of Sleep: Sleep Science and Sleep Disorders
+                  Introduction to healthy Diet and Nutrition
                   </p>
                 </div>
                 <div className="stardiv">
@@ -249,10 +254,10 @@ const Courses = () => {
               <div className="bottominfo">
                 <div className="personInfo">
                   <div className="person1imgdiv">
-                    <img className="person1img" src="/person1.png" alt="" />
+                    <img className="person1img" src="/person4.jpg" alt="" />
                   </div>
                   <div>
-                    <p>Kylian Murphle</p>
+                    <p>Kate Winslate</p>
                   </div>
                 </div>
                 <div>

@@ -3,6 +3,7 @@
 }
 
 
+
 .Fsection {
   max-width: 1170px;
   margin-left: auto;
@@ -114,13 +115,13 @@
 
 .beginner {
   border: 1px solid #ff970080;
-  background-color: #92793280;
+  background-color: #FFF8E7;
   border-radius: 6px;
   padding: 3px 6px;
 }
 .nutrition {
-  border: 1px solid #cde53333;
-  background-color: rgb(93, 240, 117);
+  border: 1px solid #c8e838;
+  background-color: #f4fcd4;
   border-radius: 6px;
   padding: 3px 6px;
 }
@@ -208,6 +209,21 @@
   margin-top: 32px;
 }
 
+.CheckmarkSection{
+  display: flex;
+  gap: 5px;
+  padding: 3px 6px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: grey;
+}
+.CheckmarkSection p {
+color: black;
+}
+
 .coursesparatext {
   font-size: 15px;
   color: rgb(88, 88, 88);
@@ -244,6 +260,10 @@
       left: 47%;
       top: 506%; 
     }
+
+    .pt{
+      padding: 5px 10px;
+    }
    
   
   }
@@ -253,6 +273,23 @@
         
         top: 460%; 
       }
+
+    
      
     
     }
+
+
+    
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .custom-navigation {
+      right: 50%;
+      left: 47%;
+      top: 597%; 
+    }
+
+    .pt{
+      padding: 5px 10px;
+    }
+  }
+  

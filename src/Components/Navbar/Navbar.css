@@ -17,7 +17,7 @@
   display: none;
 }
 .navbar p {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -67,6 +67,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding: 5px 10px;
   }
 
   .S_Start_Nav {
@@ -81,11 +82,19 @@
   .SListPopup{
     position: absolute;
     left: -10%;
-    top: 30px;
+    top: 40px;
+    z-index: 20;
+    background-color: white;
+    padding: 10px;
     
   }
   .s_ul{
     list-style: none;
+    
+  }
+
+  .s_ul > * + * {
+    margin-top: 8px;
   }
  
 }

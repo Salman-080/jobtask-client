@@ -84,4 +84,26 @@ margin-top: 10px;
     
       
   }
+
+
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .icons{
+        
+     
+        flex-wrap: wrap;
+        
+        scale: 90%;
+        gap: 15px;
+        width: auto;
+        margin-right: 10px;
+       
+    }
+
+    .contentDiv{
+        padding: 5px 10px;
+        
+       
+    }
+  }
   

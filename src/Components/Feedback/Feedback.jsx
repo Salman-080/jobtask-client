@@ -1,4 +1,6 @@
 "use client";
+import { FaQuoteLeft } from "react-icons/fa";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -33,7 +35,7 @@ const Feedback = () => {
 
                     <p className="nameText">Kilian Murphe</p>
                   </div>
-                  <div>dot</div>
+                  <div className="quota"><FaQuoteLeft></FaQuoteLeft></div>
                 </div>
 
                 <div>"I love the interactive elements and the community forums where I can connect with other learners."</div>
@@ -49,7 +51,7 @@ const Feedback = () => {
 
                     <p className="nameText">Kilian Murphe</p>
                   </div>
-                  <div>dot</div>
+                  <div className="quota"><FaQuoteLeft></FaQuoteLeft></div>
                 </div>
 
                 <div>“The mindfulness courses have helped me manage stress better and find balance in my daily life. The guided meditations are a highlight! The courses are well worth the investment and have made a positive impact on my life." </div>
@@ -65,7 +67,7 @@ const Feedback = () => {
 
                     <p className="nameText">Kilian Murphe</p>
                   </div>
-                  <div>dot</div>
+                  <div className="quota"><FaQuoteLeft></FaQuoteLeft></div>
                 </div>
 
                 <div>"A fantastic platform with a wide variety of health and wellness courses. The instructors are top-notch, and the content is very engaging."</div>
@@ -81,7 +83,7 @@ const Feedback = () => {
 
                     <p className="nameText">Kilian Murphe</p>
                   </div>
-                  <div>dot</div>
+                  <div className="quota"><FaQuoteLeft></FaQuoteLeft></div>
                 </div>
 
                 <div>It's not just about physical health but mental and emotional well-being too."</div>
@@ -97,7 +99,7 @@ const Feedback = () => {
 
                     <p className="nameText">Kilian Murphe</p>
                   </div>
-                  <div>dot</div>
+                  <div className="quota"><FaQuoteLeft></FaQuoteLeft></div>
                 </div>
 
                 <div>"I love the flexibility of the courses. I can learn at my own pace and revisit the material whenever I need to."</div>
@@ -114,7 +116,7 @@ const Feedback = () => {
 
                     <p className="nameText">Kilian Murphe</p>
                   </div>
-                  <div>dot</div>
+                  <div className="quota"><FaQuoteLeft></FaQuoteLeft></div>
                 </div>
 
                 <div>"I love the interactive elements and the community forums where I can connect with other learners."</div>
@@ -131,7 +133,7 @@ const Feedback = () => {
 
                     <p className="nameText">Kilian Murphe</p>
                   </div>
-                  <div>dot</div>
+                  <div className="quota"><FaQuoteLeft></FaQuoteLeft></div>
                 </div>
 
                 <div>"I love the interactive elements and the community forums where I can connect with other learners."</div>
@@ -148,7 +150,9 @@ const Feedback = () => {
 
                     <p className="nameText">Kilian Murphe</p>
                   </div>
-                  <div>dot</div>
+                  <div>
+                    
+                  </div>
                 </div>
 
                 <div>"A fantastic platform with a wide variety of health and wellness courses. The instructors are top-notch, and the content is very engaging."</div>
