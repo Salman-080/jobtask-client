@@ -1,0 +1,258 @@
+.smallDevice {
+  display: none;
+}
+
+
+.Fsection {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Heading {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1px;
+  position: relative;
+}
+
+.custom-navigation {
+  position: absolute;
+  right: 2%;
+  display: flex;
+  background-color: brown;
+  top: 50%;
+  margin-right: 30px;
+}
+
+/* #app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+.swiper-button-next {
+  margin-right: -40px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black;
+  border: 1px solid black;
+  border-radius: 100%;
+  cursor: pointer;
+  color: red !important;
+  transform: scale(0.5);
+  padding: 10px 20px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: black;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: orange;
+}
+
+.imgDiv {
+  width: 100%;
+  height: 200px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+}
+
+.sliderDiv {
+  border: 2px solid grey;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 34px;
+}
+.swiper-slide {
+  overflow: hidden;
+}
+
+.beginner {
+  border: 1px solid #ff970080;
+  background-color: #92793280;
+  border-radius: 6px;
+  padding: 3px 6px;
+}
+.nutrition {
+  border: 1px solid #cde53333;
+  background-color: rgb(93, 240, 117);
+  border-radius: 6px;
+  padding: 3px 6px;
+}
+
+.bn {
+  display: flex;
+  gap: 15px;
+}
+
+.foundation {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.stardiv {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  display: flex;
+  gap: 5px;
+  color: orange;
+}
+
+.textSection > * + * {
+  margin-top: 12px;
+}
+
+.textSection {
+  margin-top: 18px;
+}
+
+.time {
+  display: flex;
+  gap: 6px;
+  margin-top: 30px;
+}
+
+.personInfo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.person1imgdiv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.person1img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.bottominfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.dollartext {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.secondDiv {
+  padding: 6px 18px;
+}
+
+.clock {
+  color: #9998e1;
+}
+
+.book {
+  color: #9998e1;
+}
+
+.courseText {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+.coursesparatext {
+  font-size: 15px;
+  color: rgb(88, 88, 88);
+  margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+.largeDevice{
+    display: none;
+}
+.smallDevice{
+    display: flex;
+}
+
+.custom-navigation {
+    right: 50%;
+    left: 47%;
+    top: 506%; 
+  }
+ 
+
+}
+
+@media (max-width: 767px) {
+  .largeDevice{
+      display: none;
+  }
+  .smallDevice{
+      display: flex;
+  }
+  
+  .custom-navigation {
+      right: 50%;
+      left: 47%;
+      top: 506%; 
+    }
+   
+  
+  }
+  @media (max-width: 381px) {
+    
+    .custom-navigation {
+        
+        top: 460%; 
+      }
+     
+    
+    }

@@ -1,0 +1,91 @@
+.nav_parent{
+   
+    
+    
+}
+.navbar {
+  max-width: 1170px;
+  display: flex;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.Snavbar {
+  display: none;
+}
+.navbar p {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  font-weight: 300;
+}
+
+.arrowNav {
+  font-size: 12px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.button {
+  background-color: #287279;
+  border: #287279;
+  border-radius: 32px 32px;
+  padding: 12px 24px;
+  color: white;
+}
+
+.cartIcon {
+  color: #287279;
+  width: 32px;
+  height: 32px;
+}
+
+.navbarEnd {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    display: none;
+  }
+
+  .Snavbar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .S_Start_Nav {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  .Snavbar p{
+    font-size: 20px ;
+    font-weight: bold;
+  }
+  .SListPopup{
+    position: absolute;
+    left: -10%;
+    top: 30px;
+    
+  }
+  .s_ul{
+    list-style: none;
+  }
+ 
+}
